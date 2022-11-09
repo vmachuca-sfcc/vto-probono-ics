@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusPDM__c</fullName>
+    <externalId>false</externalId>
+    <label>Status PDM</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Atrasado</fullName>
+                <default>false</default>
+                <label>Atrasado</label>
+            </value>
+            <value>
+                <fullName>No Prazo</fullName>
+                <default>false</default>
+                <label>No Prazo</label>
+            </value>
+            <value>
+                <fullName>Entregue</fullName>
+                <default>false</default>
+                <label>Entregue</label>
+            </value>
+            <value>
+                <fullName>Prazo Estendido</fullName>
+                <default>false</default>
+                <label>Prazo Estendido</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>PCS__c.Adesao__c</members>
+        <members>PCS__c.AnoReferenciaIndicadores__c</members>
+        <members>PCS__c.PrazoAtualizacaoIndicadores__c</members>
+        <members>PCS__c.PrazoPDM__c</members>
+        <members>PCS__c.ProporcaoIndicadoresPreenchidos__c</members>
+        <members>PCS__c.QuantidadeIndicadoresPreenchidos__c</members>
+        <members>PCS__c.StatusPDM__c</members>
+        <members>PCS__c.TelefoneFixo__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>PCS__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>PCS__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>PCS__c-Projeto Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>PCS__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>56.0</version>
+</Package>
