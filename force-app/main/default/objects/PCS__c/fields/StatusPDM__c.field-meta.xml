@@ -11,24 +11,29 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Cancelado</fullName>
+                <default>false</default>
+                <label>Cancelado</label>
+            </value>
+            <value>
+                <fullName>No Prazo</fullName>
+                <default>true</default>
+                <label>No Prazo</label>
+            </value>
+            <value>
                 <fullName>Atrasado</fullName>
                 <default>false</default>
                 <label>Atrasado</label>
             </value>
             <value>
-                <fullName>No Prazo</fullName>
+                <fullName>Prazo Estendido</fullName>
                 <default>false</default>
-                <label>No Prazo</label>
+                <label>Prazo Estendido</label>
             </value>
             <value>
                 <fullName>Entregue</fullName>
                 <default>false</default>
                 <label>Entregue</label>
-            </value>
-            <value>
-                <fullName>Prazo Estendido</fullName>
-                <default>false</default>
-                <label>Prazo Estendido</label>
             </value>
         </valueSetDefinition>
     </valueSet>
